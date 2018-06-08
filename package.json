@@ -1,0 +1,30 @@
+{
+  "name": "typeorm-helper",
+  "version": "0.1.0",
+  "keywords": [
+    "TypeORM",
+    "Helper"
+  ],
+  "description": "TypeORM Helper",
+  "author": {
+    "name": "microld",
+    "email": "2627500295@qq.com"
+  },
+  "main": "dist",
+  "scripts": {
+    "build": "rimraf ./dist && ./node_modules/.bin/tsc"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.10",
+    "mysql": "^2.15.0",
+    "typeorm": "^0.2.7"
+  },
+  "devDependencies": {
+    "reflect-metadata": "^0.1.12",
+    "rimraf": "^2.6.2",
+    "tslint": "5.10.0",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "typescript": "2.8.4"
+  },
+  "license": "Apache License 2.0"
+}

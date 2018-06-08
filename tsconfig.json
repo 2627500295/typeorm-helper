@@ -1,0 +1,109 @@
+{
+  "compilerOptions": {
+    // 解析非相对模块名的基准目录
+    "baseUrl": "./src",
+
+    "paths": {
+      "*": ["*"]
+    },
+
+    "rootDirs": [
+      "src/helper"
+    ],
+
+    // 输出目录
+    "outDir": "dist",
+
+    // 目标 ECMAScript 版本 <ES3|ES5|ES2015|ES2016|ES2017|ES2018|ESNEXT>
+    "target": "es5",
+
+    // 生成指定模块种类 <none|commonjs|amd|system|umd|es2015|ESNext>
+    "module": "commonjs",
+
+    // sourceMap
+    "sourceMap": false,
+
+    // 包含库文件
+    "lib": ["es2017"],
+
+    // 模块处理方式
+    "moduleResolution": "node",
+
+    // 移除注释
+    "removeComments": true,
+
+    // 不包含默认的库文件（ lib.d.ts）
+    "noLib": false,
+
+    // 生成 .d.ts 文件
+    "declaration": true,
+
+    // 生成 .d.ts 文件输出目录
+    // "declarationDir": "./lib",
+
+    // ES6 默认导入
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    // ES 7 装饰器
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    // 严格检查
+    "strict": true,
+
+    // 以严格模式解析并为每个源文件生成 "use strict"语句
+    "alwaysStrict": true,
+
+    // 隐式 "any" 类型输出错误
+    "noImplicitAny": true,
+
+    // 严格 NULL 检查
+    "strictNullChecks": true,
+
+    // 禁用函数参数双向协变检查
+    "strictFunctionTypes": true,
+
+    // 类中初始化属性严格检查
+    "strictPropertyInitialization": false,
+
+    // 带隐式 "any" 的 "this" 表达式输出错误
+    "noImplicitThis": true,
+
+    // 若有未使用的局部变量则抛错
+    "noUnusedLocals": true,
+
+    // 若有未使用的参数则抛错
+    "noUnusedParameters": true,
+
+    // 不是函数的所有返回路径都有返回值时报错
+    "noImplicitReturns": true,
+
+    // 报告 switch 语句中遇到 fallthrough 情况的错误
+    "noFallthroughCasesInSwitch": true,
+
+    // 不报告执行不到的代码错误
+    "allowUnreachableCode": false,
+
+    // 不报告未使用的标签错误
+    "allowUnusedLabels": false,
+
+    // 禁止对同一个文件的不一致的引用
+    "forceConsistentCasingInFileNames": false,
+
+    // 禁用在函数类型里对泛型签名进行严格检查
+    "noStrictGenericChecks": false,
+
+    // 阻止对对象字面量的额外属性检查
+    "suppressExcessPropertyErrors": false,
+
+    // 阻止 --noImplicitAny 对缺少索引签名的索引对象报错
+    "suppressImplicitAnyIndexErrors": false,
+  },
+
+  // 包含文件
+  "include": ["src/**/*"],
+
+  // 排除目录或文件
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
