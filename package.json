@@ -1,5 +1,5 @@
 {
-  "name": "typeorm-helper",
+  "name": "@microld/typeorm",
   "version": "0.1.0",
   "keywords": [
     "TypeORM",
